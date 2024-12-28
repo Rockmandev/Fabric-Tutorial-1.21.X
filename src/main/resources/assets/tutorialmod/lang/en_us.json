@@ -1,4 +1,7 @@
 {
   "item.tutorialmod.vibranium_rod": "Vibranium Rod",
-  "item.tutorialmod.impure_vibranium": "Impure Vibranium"
+  "item.tutorialmod.impure_vibranium": "Impure Vibranium",
+
+  "block.tutorialmod.vibranium_core_block": "Vibranium Core",
+  "block.tutorialmod.vibranium_blob_block": "Vibranium Blob"
 }
