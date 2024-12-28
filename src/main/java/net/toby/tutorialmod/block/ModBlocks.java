@@ -44,10 +44,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE).register(entries -> {
-            entries.add(ModBlocks.VIBRANIUM_CORE_BLOCK);
-            entries.add(ModBlocks.VIBRANIUM_BLOB_BLOCK);
-        });
     }
 }

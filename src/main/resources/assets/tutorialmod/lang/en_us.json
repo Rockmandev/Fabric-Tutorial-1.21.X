@@ -3,5 +3,7 @@
   "item.tutorialmod.impure_vibranium": "Impure Vibranium",
 
   "block.tutorialmod.vibranium_core_block": "Vibranium Core",
-  "block.tutorialmod.vibranium_blob_block": "Vibranium Blob"
+  "block.tutorialmod.vibranium_blob_block": "Vibranium Blob",
+
+  "itemgroup.tutorialmod.magic_metal_group": "Magic Metal Stuffs"
 }
