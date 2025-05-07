@@ -18,8 +18,16 @@ public class ModItemGroups {
                     entries((displayContext, entries) -> {
                         entries.add(ModItems.IMPURE_VIBRANIUM);
                         entries.add(ModItems.VIBRANIUM_ROD);
+                        entries.add(ModItems.VIBRANIUM_SHARD);
+
                         entries.add(ModBlocks.VIBRANIUM_BLOB_BLOCK);
                         entries.add(ModBlocks.VIBRANIUM_CORE_BLOCK);
+                        entries.add(ModBlocks.VIBRANIUM_ORE_BLOCK);
+
+                        entries.add(ModItems.IRON_CHISEL);
+                        entries.add(ModItems.BOOM_STICK);
+
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).
                     build());
 

@@ -1,9 +1,16 @@
 {
   "item.tutorialmod.vibranium_rod": "Vibranium Rod",
   "item.tutorialmod.impure_vibranium": "Impure Vibranium",
+  "item.tutorialmod.vibranium_shard": "Vibranium Shard",
+
+  "item.tutorialmod.iron_chisel": "Iron Chisel",
+  "item.tutorialmod.boom_stick": "BOOM stick",
 
   "block.tutorialmod.vibranium_core_block": "Vibranium Core",
   "block.tutorialmod.vibranium_blob_block": "Vibranium Blob",
+  "block.tutorialmod.vibranium_ore_block": "Vibranium Ore",
+
+  "block.tutorialmod.magic_block": "Magic Block",
 
   "itemgroup.tutorialmod.magic_metal_group": "Magic Metal Stuffs"
 }

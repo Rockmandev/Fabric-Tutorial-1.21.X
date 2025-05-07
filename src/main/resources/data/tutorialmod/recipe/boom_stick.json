@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "V":{
+      "item": "tutorialmod:vibranium_rod"
+    }
+  },
+  "pattern": [
+    "V",
+    "#",
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorialmod:boom_stick"
+  }
+}
