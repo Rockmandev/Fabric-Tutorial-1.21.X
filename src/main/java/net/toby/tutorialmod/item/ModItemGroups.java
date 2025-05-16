@@ -27,6 +27,9 @@ public class ModItemGroups {
                         entries.add(ModItems.IRON_CHISEL);
                         entries.add(ModItems.BOOM_STICK);
 
+                        entries.add(ModItems.HEART);
+                        entries.add(ModItems.STEEL_WOOL);
+
                         entries.add(ModBlocks.MAGIC_BLOCK);
                     }).
                     build());
