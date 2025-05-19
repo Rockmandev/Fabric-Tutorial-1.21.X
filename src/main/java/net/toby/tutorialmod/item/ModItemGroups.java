@@ -29,6 +29,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.HEART);
                         entries.add(ModItems.STEEL_WOOL);
+                        entries.add(ModItems.GRAPES);
 
                         entries.add(ModBlocks.MAGIC_BLOCK);
                     }).

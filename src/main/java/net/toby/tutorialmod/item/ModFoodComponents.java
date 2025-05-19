@@ -7,4 +7,5 @@ import net.minecraft.entity.effect.StatusEffects;
 public class ModFoodComponents {
     public static final FoodComponent HEART = new FoodComponent.Builder().nutrition(5).saturationModifier(0.3f).
             statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 1200), 1.00f).build();
+    public static final FoodComponent GRAPES = new FoodComponent.Builder().nutrition(2).saturationModifier(0.1f).build();
 }

@@ -18,6 +18,7 @@ public class ModItems {
 
     public static final Item HEART = registerItem("heart", new Item(new Item.Settings().food(ModFoodComponents.HEART)));
     public static final Item STEEL_WOOL = registerItem("steel_wool", new Item(new Item.Settings()));
+    public static final Item GRAPES = registerItem("grapes", new Item(new Item.Settings().food(ModFoodComponents.GRAPES)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID, name), item);
