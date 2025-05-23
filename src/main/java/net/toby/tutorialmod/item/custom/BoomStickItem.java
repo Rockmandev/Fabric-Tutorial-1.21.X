@@ -1,15 +1,20 @@
 package net.toby.tutorialmod.item.custom;
 
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.FireballEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldEvents;
 import net.toby.tutorialmod.entity.projectile.explosive.custom.FlamingChargeFireballEntity;
+
+import java.util.List;
 
 public class BoomStickItem extends Item {
     public BoomStickItem(Settings settings) {
@@ -51,5 +56,16 @@ public class BoomStickItem extends Item {
             world.spawnEntity(fireballEntity);
         }
         return super.use(world, user, hand);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+        if(Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable("tooltip.tutorialmod.boom_stick.shift_down"));
+        } else {
+            tooltip.add(Text.translatable("tooltip.tutorialmod.boom_stick"));
+        }
+
+        super.appendTooltip(stack, context, tooltip, type);
     }
 }

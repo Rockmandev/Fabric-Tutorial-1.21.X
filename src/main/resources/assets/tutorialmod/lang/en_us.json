@@ -5,17 +5,21 @@
 
   "item.tutorialmod.iron_chisel": "Iron Chisel",
   "item.tutorialmod.boom_stick": "BOOM stick",
+  "tooltip.tutorialmod.boom_stick": "§8Hold §oshift§r §8down to see description",
+  "tooltip.tutorialmod.boom_stick.shift_down": "made by one drunk ass wizard... I miss you §knunya",
 
   "item.tutorialmod.heart": "Heart",
   "item.tutorialmod.steel_wool": "Steel Wool",
   "item.tutorialmod.grapes": "Grapes",
+  "tooltip.tutorialmod.grapes.tooltip.line_1": "§8picked straight from the vine",
+  "tooltip.tutorialmod.grapes.tooltip.line_2": "can be fermented into a fine wine",
 
   "block.tutorialmod.vibranium_core_block": "Vibranium Core",
   "block.tutorialmod.vibranium_blob_block": "Vibranium Blob",
   "block.tutorialmod.vibranium_ore_block": "Vibranium Ore",
 
   "block.tutorialmod.magic_block": "Magic Block",
-  "tooltip.tutorial.magic_block.tooltip": "I don't know where anyone else is in this game",
+  "tooltip.tutorial.magic_block.tooltip": "I don't know where §9anyone§r else is in this game",
 
   "itemgroup.tutorialmod.magic_metal_group": "Magic Metal Stuffs"
 }
