@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorialmod:boom_stick"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vibranium_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:vibranium_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vibranium_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorialmod:boom_stick"
+    ]
+  }
+}

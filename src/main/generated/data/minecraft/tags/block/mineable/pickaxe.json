@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:magic_block",
+    "tutorialmod:vibranium_core_block",
+    "tutorialmod:vibranium_blob_block",
+    "tutorialmod:vibranium_ore_block"
+  ]
+}

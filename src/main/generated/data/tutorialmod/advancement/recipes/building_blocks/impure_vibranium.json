@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:impure_vibranium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vibranium_blob_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorialmod:vibranium_blob_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_vibranium_blob_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:impure_vibranium"
+    ]
+  }
+}

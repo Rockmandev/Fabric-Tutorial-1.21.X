@@ -1,0 +1,5 @@
+// 1.21	2025-05-25T18:48:45.9535969	Tutorial Mod/Block Loot Tables
+5ece47f3952e0dd7452cf66501877b396d8be3ea data\tutorialmod\loot_table\blocks\vibranium_blob_block.json
+4c72d67a72a197cbb507b75687b65f0e29403ef7 data\tutorialmod\loot_table\blocks\vibranium_ore_block.json
+e9e747e7291690e4d25f6863ce789aa960b38504 data\tutorialmod\loot_table\blocks\vibranium_core_block.json
+cbb358d78cd57da58c907a35212d486fa6f68efa data\tutorialmod\loot_table\blocks\magic_block.json

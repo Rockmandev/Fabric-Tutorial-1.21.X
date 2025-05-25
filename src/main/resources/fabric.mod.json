@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "tutorial-mod",
+	"id": "tutorialmod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
 	"description": "This is a tutorial mod that is, with a bit of luck and motivation, going to teach me to mod",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "uhhhhh",
-	"icon": "assets/tutorial-mod/tutorial_mod.png",
+	"icon": "assets/tutorialmod/tutorial_mod.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
